@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: cf-cacheable-redis
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: s5094646
+Implementation-Vendor-Id: com.lukeshannon
+Build-Jdk: 1.8.0_102
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
