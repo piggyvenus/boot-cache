@@ -27,7 +27,7 @@ public class CacheMangerConfig extends CachingConfigurerSupport {
 	  public RedisConnectionFactory redisConnectionFactory() {
 		CloudFactory cloudFactory = new CloudFactory();
         Cloud cloud = cloudFactory.getCloud();
-        RedisServiceInfo serviceInfo = new RedisServiceInfo("test", "172.30.53.219:6379");
+        RedisServiceInfo serviceInfo = new RedisServiceInfo("test", "redis:6379");
         String serviceID = serviceInfo.getId();
         return cloud.getServiceConnector(serviceID, RedisConnectionFactory.class, null);
 	  }
